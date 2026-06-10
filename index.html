@@ -1,0 +1,35 @@
+<!doctype html><html lang="en-GB"><head>
+<meta name="google-site-verification" content="vkuJE_fkgB_LilNnJfsGcQWyQy7RExcFFOB8BBAs4s0">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sourdough Toolkit — Free Sourdough Calculators & Guides</title><meta name="description" content="Free sourdough calculators for dough hydration, starter feeding, recipe scaling and bulk fermentation.">
+<link rel="canonical" href="https://sourdoughtoolkit.netlify.app/"><link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+<link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="styles.css"></head><body>
+<header class="site-header"><nav class="nav">
+<a class="brand" href="index.html"><img src="assets/logo.svg" alt=""> <span>Sourdough Toolkit</span></a>
+<button class="menu" id="menuBtn">☰</button>
+<div class="links" id="navLinks">
+<a href="index.html">Home</a><a href="calculators.html">Calculators</a><a href="guides.html">Guides</a><a href="ai-helper.html">Helper</a><a href="about.html">About</a>
+</div></nav></header>
+
+<main>
+<section class="hero"><div><p class="eyebrow">Free tools for home bakers</p><h1>Make better sourdough with simple, accurate calculators.</h1>
+<p class="sub">Build a dough recipe, calculate starter feeds, estimate bulk fermentation, scale recipes and learn the basics without guessing.</p>
+<div class="cta-row"><a class="btn primary" href="#front-dough">Use dough builder</a><a class="btn ghost" href="guides.html">Read guides</a></div>
+<p class="proof">✓ No sign-up · ✓ Free · ✓ Mobile friendly</p></div>
+<section id="front-dough" class="app-card"><p class="card-label">Featured tool</p><h2>Dough Builder</h2>
+<div class="form-grid"><label>Total flour (g)<input id="homeFlour" type="number" value="500"></label><label>Hydration (%)<input id="homeHydration" type="number" value="70"></label><label>Starter (% of flour)<input id="homeStarterPct" type="number" value="20"></label><label>Salt (%)<input id="homeSaltPct" type="number" value="2" step="0.1"></label></div>
+<button class="calc" onclick="calculateHomeDough()">Calculate recipe</button><div id="homeDoughResult" class="result"></div></section></section>
+<section class="section"><p class="eyebrow">Popular tools</p><h2>Calculators people actually search for</h2><div class="grid">
+<a class="card" href="dough-calculator.html">🥖<h3>Dough Calculator</h3><p>Water, starter, salt and total dough weight.</p></a>
+<a class="card" href="starter-calculator.html">🌾<h3>Starter Feeding</h3><p>Calculate 1:1:1, 1:2:2 and 1:5:5 feeds.</p></a>
+<a class="card" href="bulk-fermentation.html">⏱️<h3>Bulk Fermentation</h3><p>Estimate timing by temperature.</p></a>
+<a class="card" href="recipe-scaler.html">⚖️<h3>Recipe Scaler</h3><p>Scale recipes up or down.</p></a></div></section>
+<section class="section split"><div><p class="eyebrow">Built-in helper</p><h2>Ask the Sourdough Helper</h2><p class="sub small">A free rule-based helper for common sourdough questions. No paid API key needed.</p><a class="btn primary" href="ai-helper.html">Open helper</a></div><div class="app-card">Try asking: “Why is my dough sticky?” or “How much starter should I use?”</div></section>
+<section class="section"><p class="eyebrow">Popular guides</p><h2>Beginner articles to help bring search traffic</h2><div class="grid">
+<a class="card" href="what-is-sourdough-hydration.html"><h3>What Is Sourdough Hydration?</h3><p>Learn 60%, 70% and 80% hydration.</p></a>
+<a class="card" href="how-much-starter-should-i-use.html"><h3>How Much Starter Should I Use?</h3><p>Learn 10%, 20% and 30% starter.</p></a>
+<a class="card" href="sourdough-feeding-ratios.html"><h3>Feeding Ratios Explained</h3><p>Understand 1:1:1, 1:2:2 and 1:5:5.</p></a>
+<a class="card" href="bulk-fermentation-times-chart.html"><h3>Bulk Times Chart</h3><p>Timing chart for 18°C to 24°C.</p></a></div></section></main>
+<footer><div class="footer-inner"><strong>Sourdough Toolkit</strong><p>Free sourdough calculators and beginner guides for home bakers.</p>
+<a href="calculators.html">Calculators</a> · <a href="guides.html">Guides</a> · <a href="ai-helper.html">Helper</a></div></footer>
+<script src="script.js"></script></body></html>

@@ -1,0 +1,15 @@
+{
+  "name": "Sourdough Toolkit",
+  "short_name": "Sourdough",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff5e6",
+  "theme_color": "#c15a1b",
+  "icons": [
+    {
+      "src": "assets/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

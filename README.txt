@@ -1,0 +1,1 @@
+Upload the extracted folder to Netlify. Make sure index.html is directly inside the folder you upload. Then request indexing in Google Search Console for the homepage, guides.html, and the four article pages.

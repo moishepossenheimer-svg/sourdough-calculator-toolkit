@@ -1,0 +1,19 @@
+<!doctype html><html lang="en-GB"><head>
+<meta name="google-site-verification" content="vkuJE_fkgB_LilNnJfsGcQWyQy7RExcFFOB8BBAs4s0">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sourdough Dough Calculator</title><meta name="description" content="Calculate sourdough dough amounts using flour, hydration, starter and salt percentages.">
+<link rel="canonical" href="https://sourdoughtoolkit.netlify.app/dough-calculator.html"><link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+<link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="styles.css"></head><body>
+<header class="site-header"><nav class="nav">
+<a class="brand" href="index.html"><img src="assets/logo.svg" alt=""> <span>Sourdough Toolkit</span></a>
+<button class="menu" id="menuBtn">☰</button>
+<div class="links" id="navLinks">
+<a href="index.html">Home</a><a href="calculators.html">Calculators</a><a href="guides.html">Guides</a><a href="ai-helper.html">Helper</a><a href="about.html">About</a>
+</div></nav></header>
+
+<main class="page"><p class="eyebrow">Calculator</p><h1>Dough Calculator</h1><p class="sub">Assumes 100% hydration starter.</p><section class="app-card wide">
+<div class="form-grid"><label>Total flour (g)<input id="flour" value="500" type="number"></label><label>Hydration (%)<input id="hydration" value="70" type="number"></label><label>Starter (% of flour)<input id="starterPct" value="20" type="number"></label><label>Salt (%)<input id="saltPct" value="2" step="0.1" type="number"></label></div>
+<button class="calc" onclick="calculateDough()">Calculate dough</button><div id="doughResult" class="result"></div></section></main>
+<footer><div class="footer-inner"><strong>Sourdough Toolkit</strong><p>Free sourdough calculators and beginner guides for home bakers.</p>
+<a href="calculators.html">Calculators</a> · <a href="guides.html">Guides</a> · <a href="ai-helper.html">Helper</a></div></footer>
+<script src="script.js"></script></body></html>
