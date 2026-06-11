@@ -1,10 +1,15 @@
-Sourdough Toolkit upgraded static site
-
-Open index.html in a browser or deploy this folder to Netlify.
-
-Upgrades included:
-- Professional visual refresh and new SVG logo
-- Generated hero photography saved at assets/sourdough-workbench.png
-- Long-form guide articles with FAQs
-- Better internal linking, metadata, Open Graph tags and structured data
-- Updated sitemap, manifest and service worker cache
+{
+  "name": "Sourdough Toolkit",
+  "short_name": "Sourdough",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fffaf2",
+  "theme_color": "#5a2c18",
+  "icons": [
+    {
+      "src": "assets/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
